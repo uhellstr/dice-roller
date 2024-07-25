@@ -1,4 +1,20 @@
-// diceRoller.js
+  /**
+  * This function, rollDice, simulates the rolling of dice based on input in the format commonly used in
+  * tabletop role-playing games like Dungeons & Dragons.
+  * 
+  * The function accepts a string input representing various dice rolls, such as "2d6+3" or "1d20-2".
+  * 
+  * - It supports multiple dice types: d4, d6, d8, d10, d12, d20, and d100.
+  * - The input can specify multiple dice rolls and modifiers, e.g., "3d4+2d6+5".
+  * - The function uses regular expressions to parse the input and extract the number of dice, type of dice, and any modifiers.
+  * - It then calculates the total roll by summing the results of individual dice rolls and applying any modifiers.
+  * - The result is returned as the total value of the dice rolls including modifiers.
+  * 
+  * Example usage:
+  * - rollDice("2d6") // Rolls two six-sided dice and returns their sum.
+  * - rollDice("3d4+1") // Rolls three four-sided dice, sums the results, and adds 1.
+  * - rollDice("1d6+1d4+2") // Rolls 1d6 and 1d4, sums the result and then add 2 to the sum.
+ */
 function rollDice(input) {
   let total = 0;
 
