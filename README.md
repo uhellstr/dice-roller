@@ -41,4 +41,4 @@ Just a small fun project I made to fresh up some javascript coding. However, tho
 
 3. Enter your dice roll combination in the input form and click the "Roll" button.
 
-4. The result of the dice rolls will be displayed and then you can new rolls.
+4. The result of the dice rolls will be displayed and then you can reroll.
