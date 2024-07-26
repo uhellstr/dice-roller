@@ -2,6 +2,8 @@
 
 This is a simple Node.js web application that simulates rolling dice based on input in the format commonly used in tabletop role-playing games like Dungeons & Dragons. The application allows users to enter dice roll combinations, calculates the results, and displays them on a web page.
 
+Just a small fun project I made to fresh up some javascript coding. However, thought it might be useful maybe so wrapped the code with nodejs and here we are!
+
 ## Features
 
 - Supports multiple dice types: d4, d6, d8, d10, d12, d20, and d100.
