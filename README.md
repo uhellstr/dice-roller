@@ -19,7 +19,7 @@ Just a small fun project I made to fresh up some javascript coding. However, tho
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/yourusername/dice-roller.git
+    git https://github.com/uhellstr/dice-roller.git 
     cd dice-roller
     ```
 
